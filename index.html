@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="simple template with html and css made by elzero">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- Font Aweasome -->
@@ -20,8 +21,8 @@
             <a href="#" class="logo">Elzero</a>
             <ul class="main-nav">
                 <li><a href="#articles">Articels</a></li>
-                <li><a href="#Gallery">Gallery</a></li>
-                <li><a href="#Features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#features">Features</a></li>
                 <li>
                     <a href="#">Other Links</a>
                     <!-- Start Mega-menu -->
@@ -30,18 +31,18 @@
                             <img src="./images/megamenu.png" alt="">
                         </div>
                         <ul class="links">
-                                <li><a href="#"><i class="far fa-comments fa-fw"></i>testimonials</a></li>
-                                <li><a href="#"><i class="far fa-user fa-fw"></i>team members</a></li>
-                                <li><a href="#"><i class="far fa-building fa-fw"></i>services</a></li>
-                                <li><a href="#"><i class="far fa-check-circle fa-fw"></i>our skills</a></li>
-                                <li><a href="#"><i class="far fa-clipboard fa-fw"></i>how it works</a></li>
+                                <li><a href="#testimonials"><i class="far fa-comments fa-fw"></i>testimonials</a></li>
+                                <li><a href="#team-members"><i class="far fa-user fa-fw"></i>team members</a></li>
+                                <li><a href="#services"><i class="far fa-building fa-fw"></i>services</a></li>
+                                <li><a href="#our-skills"><i class="far fa-check-circle fa-fw"></i>our skills</a></li>
+                                <li><a href="#works"><i class="far fa-clipboard fa-fw"></i>how it works</a></li>
                         </ul>
                         <ul class="links">
-                            <li><a href="#"><i class="far fa-calendar-alt fa-fw"></i>events</a></li>
-                            <li><a href="#"><i class="fas fa-server fa-fw"></i>pricing plans</a></li>
-                            <li><a href="#"><i class="far fa-play-circle fa-fw"></i>top videos</a></li>
-                            <li><a href="#"><i class="far fa-chart-bar fa-fw"></i>stats</a></li>
-                            <li><a href="#"><i class="fas fa-percent fa-fw"></i>request a discount</a></li>                            
+                            <li><a href="#events"><i class="far fa-calendar-alt fa-fw"></i>events</a></li>
+                            <li><a href="#pricing"><i class="fas fa-server fa-fw"></i>pricing plans</a></li>
+                            <li><a href="#videos"><i class="far fa-play-circle fa-fw"></i>top videos</a></li>
+                            <li><a href="#stats"><i class="far fa-chart-bar fa-fw"></i>stats</a></li>
+                            <li><a href="#discount"><i class="fas fa-percent fa-fw"></i>request a discount</a></li>                            
                         </ul>
                     </div>
                     <!-- End Mega-menu -->
@@ -165,7 +166,7 @@
     <div class="spikes"></div>
     <!-- End spikes -->
     <!-- Start Gallery -->
-    <div class="gallery">
+    <div class="gallery" id="gallery">
         <h2 class="main-title">gallery</h2>
         <div class="container">
             <div class="box">
@@ -242,7 +243,7 @@
     <div class="spikes"></div>
     <!-- End spikes -->
     <!-- Start Testimonials -->
-    <div class="testimonials">
+    <div class="testimonials" id="testimonials">
         <h2 class="main-title">testimonials</h2>
         <div class="container">
             <div class="box">
@@ -328,7 +329,7 @@
     </div>
     <!-- End Testimonials -->
     <!-- Start Team -->
-    <div class="team">
+    <div class="team" id="team-members">
         <h2 class="main-title">team members</h2>
         <div class="container">
             <div class="box">
@@ -541,7 +542,7 @@
     </div>
     <!-- End Our Skills -->
     <!-- Start how it works -->
-    <div class="work-steps">
+    <div class="work-steps" id="works">
         <h2 class="main-title">how it works</h2>
         <div class="container">
             <img src="./images/work-steps.png" alt="" class="image">
@@ -573,14 +574,250 @@
     <!-- End how it works -->
     <!-- Start Events -->
     <div class="events" id="events">
+        <div class="dots dots-up"></div>
+        <div class="dots dots-down"></div>
         <h2 class="main-title">latest events</h2>
         <div class="container">
-            
+            <img src="./images/events.png" alt="">
+            <div class="info">
+                <div class="time">
+                    <div class="unit">
+                        <span>15</span>
+                        <span>days</span>
+                    </div>
+                    <div class="unit">
+                        <span>08</span>
+                        <span>hours</span>
+                    </div>
+                    <div class="unit">
+                        <span>45</span>
+                        <span>minutes</span>
+                    </div>
+                    <div class="unit">
+                        <span>15</span>
+                        <span>seconds</span>
+                    </div>
+                </div>
+                <h2 class="title">tech masters event 2021</h2>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero tenetur doloremque iusto ut adipisci quam ratione aliquam excepturi nulla in harum, veritatis porro</p>
+            </div>
+            <div class="subscribe">
+                <form action="">
+                    <input type="email" placeholder="Enter Your Email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
         </div>
     </div>
     <!-- End Events -->
-
-     
+    <div class="pricing" id="pricing">
+        <div class="dots dots-up"></div>
+        <div class="dots dots-down"></div>
+        <h2 class="main-title">pricing table</h2>
+        <div class="container">
+            <div class="box">
+                <div class="text">
+                    <h3>basic</h3>
+                    <img src="./images/hosting-basic.png" alt="">
+                    <div class="price">
+                        <span>$15px</span>
+                        <span>per month</span>
+                    </div>
+                </div>
+                <ul class="list">
+                    <li><i class="fas fa-check"></i>10GB HDD Space</li>
+                    <li><i class="fas fa-check"></i>5 Email Addresses</li>
+                    <li><i class="fas fa-check"></i>2 Subdomains</li>
+                    <li><i class="fas fa-check"></i>4 Databases</li>
+                    <li><i class="fas fa-check"></i>Basic Support</li>
+                </ul>
+                <a href="#">choose plan</a>
+            </div>
+            <div class="box">
+                <div class="label">most popular</div>
+                <div class="text">
+                    <h3>advanced</h3>
+                    <img src="./images/hosting-advanced.png" alt="">
+                    <div class="price">
+                        <span>$25px</span>
+                        <span>per month</span>
+                    </div>
+                </div>
+                <ul class="list">
+                    <li><i class="fas fa-check"></i>20GB HDD Space</li>
+                    <li><i class="fas fa-check"></i>10 Email Addresses</li>
+                    <li><i class="fas fa-check"></i>5 Subdomains</li>
+                    <li><i class="fas fa-check"></i>8 Databases</li>
+                    <li><i class="fas fa-check"></i>Advanced Support</li>
+                </ul>
+                <a href="#">choose plan</a>
+            </div>
+            <div class="box">
+                <div class="text">
+                    <h3>professional</h3>
+                    <img src="./images/hosting-professional.png" alt="">
+                    <div class="price">
+                        <span>$45px</span>
+                        <span>per month</span>
+                    </div>
+                </div>
+                <ul class="list">
+                    <li><i class="fas fa-check"></i>50GB HDD Space</li>
+                    <li><i class="fas fa-check"></i>20 Email Addresses</li>
+                    <li><i class="fas fa-check"></i>10 Subdomains</li>
+                    <li><i class="fas fa-check"></i>20 Databases</li>
+                    <li><i class="fas fa-check"></i>Professional Support</li>
+                </ul>
+                <a href="#">choose plan</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Pricing -->
+    <!-- Start top videos -->
+    <div class="top-videos" id="videos">
+        <h2 class="main-title">top videos</h2>
+        <div class="container">
+            <div class="holder">
+                <div class="list">
+                    <h3>top vedios <i class="fas fa-random"></i></h3>
+                    <ul>
+                        <li>how to create sub domain <span>05:18</span></li>
+                        <li>playing width the dns <span>03:18</span></li>
+                        <li>everything about the virtual hosts <span>05:25</span></li>
+                        <li>how to monitor your website <span>04:16</span></li>
+                        <li>uncharted beating the last boss <span>07:48</span></li>
+                        <li>ys oath in felghana overview <span>03:12</span></li>
+                        <li>ys series all games ending <span>08:10</span></li>
+                    </ul>
+                </div>
+                <div class="preview">
+                    <img src="./images/video-preview.jpg" alt="">
+                    <div class="info">
+                        everthing about the virtual hosts
+                        <span>
+                            05:25
+                            <i class="fas fa-play"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End top videos -->
+    <!-- Start Statistics -->
+    <div class="statistics" id="stats">
+        <h2>our awesome stats</h2>
+        <div class="container">
+            <div class="box">
+                <i class="far fa-user fa-2x fa-fw"></i>
+                <span class="number">150</span>
+                <span class="text">clients</span>
+            </div>
+            <div class="box">
+                <i class="fas fa-code fa-2x fa-fw"></i>
+                <span class="number">135</span>
+                <span class="text">projects</span>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia fa-2x"></i>
+                <span class="number">50</span>
+                <span class="text">country</span>
+            </div>
+            <div class="box">
+                <i class="fas fa-money-bill fa-2x"></i>
+                <span class="number">500k</span>
+                <span class="text">money</span>
+            </div>
+        </div>
+    </div>
+    <!-- End Statistics -->
+    <!-- Start Discount -->
+    <div class="discount" id="discount">
+        <div class="image">
+            <div class="content">
+                <h2>we have a discount</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, excepturi ipsum? Soluta magni adipisci rerum id perferendis dolorem mollitia, accusamus, itaque neque debitis veniam iure ipsa eveniet ab quibusdam modi!</p>
+                <img src="./images/discount.png" alt="">
+            </div>
+        </div>
+        <div class="form">
+            <div class="content">
+                <h2>request a discount</h2>
+                <input type="text" class="input" placeholder="Your Name" name="name">
+                <input type="email" class="input" placeholder="Your Email" name="email">
+                <input type="text" class="input" placeholder="Your phone" name="phone">
+                <textarea name="message" placeholder="Tell Us About Your Needs"class="input"></textarea>
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </div>
+    <!-- End Discount -->
+     <!-- Start Footer -->
+     <div class="footer">
+        <div class="container">
+            <div class="box">
+                <h3>elzero</h3>
+                <ul class="social">
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur</p>
+            </div>
+            <div class="box">
+                <ul class="links">
+                    <li><a href="#">important link 1</a></li>
+                    <li><a href="#">important link 2</a></li>
+                    <li><a href="#">important link 3</a></li>
+                    <li><a href="#">important link 4</a></li>
+                    <li><a href="#">important link 5</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">
+                        egypt, giza, inside the sphinx, room number 220
+                    </div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">
+                        business hours: from 10:00 to 18:00
+                    </div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span>+20123456789</span>
+                        <span>+20198765432</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box footer-gallery">
+                <img src="./images/gallery-01.png" alt="">
+                <img src="./images/gallery-02.png" alt="">
+                <img src="./images/gallery-03.jpg" alt="">
+                <img src="./images/gallery-04.png" alt="">
+                <img src="./images/gallery-05.jpg" alt="">
+                <img src="./images/gallery-06.png" alt="">
+            </div>
+        </div>
+        <p class="copyright">made with <i class="fas fa-heart"></i> by elzero</p>
+     </div>
+     <!-- End Footer -->
 
     <!-- Go to the page up -->
     <!-- <a href="#header" title="Go up"><i class="fa fa-angle-up fa-2x up"></i></a> -->
